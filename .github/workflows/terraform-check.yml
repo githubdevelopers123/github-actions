@@ -3,10 +3,7 @@
 # .github/workflows/terraform-check.yml
 name: Terraform Lint & Validate
 
-on:
-  push:
-    paths:
-      - '**.tf'
+on: [push]
 
 jobs:
   terraform:
